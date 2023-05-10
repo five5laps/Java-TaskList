@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todoapplication.AddItemFormController">
+   <children>
+      <TextField fx:id="taskField" layoutX="169.0" layoutY="118.0" prefHeight="39.0" prefWidth="363.0" promptText="Task" />
+      <TextField fx:id="descriptionField" layoutX="169.0" layoutY="186.0" prefHeight="39.0" prefWidth="363.0" promptText="Description" />
+      <ImageView fx:id="saveTaskButton" fitHeight="64.0" fitWidth="78.0" layoutX="319.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/baseline_save_black_24dp.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="80.0" prefWidth="700.0" style="-fx-background-color: #424242;">
+         <children>
+            <Label alignment="CENTER" layoutX="304.0" layoutY="23.0" prefHeight="27.0" prefWidth="92.0" text="TDApp" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

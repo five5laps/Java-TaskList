@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootAnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todoapplication.AddItemController">
+   <children>
+      <AnchorPane prefHeight="80.0" prefWidth="700.0" style="-fx-background-color: #3279a8;" />
+      <Label alignment="CENTER" layoutX="304.0" layoutY="23.0" prefHeight="27.0" prefWidth="92.0" text="TDApp" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="noTaskLabel" alignment="CENTER" layoutX="222.0" layoutY="116.0" prefHeight="51.0" prefWidth="256.0" text="No Tasks for Today, yet">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="addButton" fitHeight="60.0" fitWidth="66.0" layoutX="320.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/baseline_add_circle_black_24dp.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todoapplication.SignupController">
+   <children>
+      <AnchorPane prefHeight="80.0" prefWidth="701.0" style="-fx-background-color: #3279a8;">
+         <children>
+            <Label alignment="CENTER" layoutX="305.0" layoutY="23.0" prefHeight="27.0" prefWidth="92.0" text="TDApp" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="signUpFirstName" layoutX="185.0" layoutY="89.0" prefHeight="35.0" prefWidth="333.0" promptText="First Name" />
+      <TextField fx:id="signUpLastName" layoutX="185.0" layoutY="131.0" prefHeight="35.0" prefWidth="333.0" promptText="Last Name" />
+      <TextField fx:id="signUpUsername" layoutX="185.0" layoutY="173.0" prefHeight="35.0" prefWidth="333.0" promptText="Username" />
+      <TextField fx:id="signUpLocation" layoutX="185.0" layoutY="283.0" prefHeight="35.0" prefWidth="333.0" promptText="Location" />
+      <CheckBox fx:id="signUpCheckBoxMale" layoutX="292.0" layoutY="260.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="60.0" selected="true" text="Male" textFill="#000000a5" />
+      <CheckBox fx:id="signUpCheckBoxFemale" layoutX="352.0" layoutY="260.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="60.0" text="Female" textFill="#000000a3" />
+      <PasswordField fx:id="signUpPassword" layoutX="185.0" layoutY="217.0" prefHeight="35.0" prefWidth="333.0" promptText="Password" />
+      <Button fx:id="signUpButton" layoutX="184.0" layoutY="335.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="333.0" style="-fx-background-color: #424242;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
